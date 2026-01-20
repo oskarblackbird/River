@@ -1,4 +1,4 @@
-# Poker MC Engine
+# River
 
 A high-performance Monte Carlo engine for estimating Texas Hold'em hand
 equity and expected value, built with a C++ simulation core and Python
