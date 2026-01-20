@@ -4,7 +4,7 @@
 
 namespace py = pybind11;
 
-PYBIND11_MODULE(poker_mc_core,m){
+PYBIND11_MODULE(_poker_mc, m){
     m.def("estimate_equity",&estimate_equity,
           py::arg("hero"),
           py::arg("board"),
